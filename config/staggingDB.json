@@ -1,0 +1,73 @@
+{
+    "mysqlConnection":
+    {
+        "host" : "10.70.230.234",
+        "user" : "bhamashah",
+        "password" : "Bhamashah@2018#",
+        "database" : "bhamashah" 
+        },
+        "multichainConfig":{
+        "port": "2680",
+        "host": "10.68.252.225",
+        "user": "multichainrpc",
+        "pass": "3ULgm5CmafttyYnsmsJWBmUD7bmmoHYkYmbPyQFLNkLP"                                                       
+        },
+        "coin":"BMCOIN2",
+    "api_config":{
+        "AuthenticateSSO":"http://ssotest.rajasthan.gov.in:8888/SSOREST/SSOAuthenticationMobileJSON",
+        "GetUserDetailJSON":"http://ssotest.rajasthan.gov.in:8888/SSOREST/GetUserDetailJSON/",
+        "username": "/ESAKHI.TEST/Rajasthan@08"
+       
+    },
+    "bhamashahservices":{
+        "GetEnrollmentDetails": "https://apitest.sewadwaar.rajasthan.gov.in/app/live/Bhamashah/Staging/service/HOF/get/",
+        "GetBhamashahStatus": "https://apitest.sewadwaar.rajasthan.gov.in/app/live/Bhamashah/Staging/service/getBhamashahStatus/",
+        "client_id" : "?client_id=9b84ae62-32eb-476f-b7b9-cb0b7b7105ed"
+    },
+    "yesbank_url": "http://ybl2.sodelsolutions.com/white_labeled_partners/white_labeled_wallet_v2.json",
+
+
+    "yesbankservices": {
+        "yesQAurl": "http://ybl2.sodelsolutions.com/white_labeled_partners/white_labeled_wallet_v2.json",
+        "PskSecretKey": "69f2acc6f0cc52b981eaf06813f9fba3",
+        "wlapCode": "bhamasha",
+        "wlapSecretKey": "bhamasha123",
+        "spendMerchantCode": "emitra123"
+
+    },
+
+    "TestIp": {
+        "host": "127.0.0.1"
+    },
+    "eMitra": {
+        "eMitraSSOID": "CITIZENOFRAJASTHAN",
+        "eMitraEncryptionKey": "E-m!tr@2016",
+        "eMitraMerchantCode": "BHAMAWALLET",
+        "eMitraWebServicesUrl": "http://emitrauat.rajasthan.gov.in/webServicesRepositoryUat",
+        "eMitraWebAppUrl": "http://emitrauat.rajasthan.gov.in/emitraAppsUat/",
+        "eMitraWebAppChecksumKey": "EmitraNew@2016",
+        "eMitraWebAppEncryptionKey": "",
+        "backtobackTransactionWithEncryptionA": "backtobackTransactionWithEncryptionA",
+        "getFetchDetailsEncryptedBySso": "getFetchDetailsEncryptedBySso"
+    },
+    "rppServices": {
+        "rppUrl": "http://uat.rpp.rajasthan.gov.in/payments/v1/init",
+        "rppVerificationUrl": "http://uat.rpp.rajasthan.gov.in/payments/v1/services/txnStatus",
+        "rppRefundUrl": "http://uat.rpp.rajasthan.gov.in/payments/v1/services/txnRefund",
+        "rppMerchantCode": "rppTestMerchant",
+        "rppChecksumKey": "UWf6a7cDCP",
+        "rppMerchantName": "BHAMASHAH WALLET",
+        "rppShortName": "BHAMASHAWALLET",
+        "rppEncryptionKey": "4157FE34BBAE3A958D8F58CCBFAD7"
+    },
+    "sendmessage": {
+        "smsGatewayUrl" : "https://msdgweb.mgov.gov.in/esms/sendsmsrequest",
+        "username" :"rajmsdg-elocker",
+        "password":"eLocker@16",
+        "smsservicetype" : "singlemsg",
+        "senderid" : "RAJSMS",
+        "content" : "message",
+        "mobileno" : "mobile"
+
+      }
+}

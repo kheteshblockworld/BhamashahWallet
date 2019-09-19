@@ -1,0 +1,73 @@
+refer: https://www.multichain.com/getting-started/
+
+D:\multichain-windows-1.0.6>multichain-util create wallet
+
+MultiChain 1.0.6 Utilities (latest protocol 10011)
+
+Blockchain parameter set was successfully generated.
+You can edit it in C:\Users\Sandhya\AppData\Roaming\MultiChain\wallet\params.dat before running multichaind for the first time.
+
+To generate blockchain please run "multichaind wallet -daemon".
+
+D:\multichain-windows-1.0.6>multichaind wallet -deamon
+
+MultiChain 1.0.6 Daemon (latest protocol 10011)
+
+Looking for genesis block...
+Genesis block found
+
+Other nodes can connect to this node using:
+multichaind wallet@172.31.107.33:4799
+
+This host has multiple IP addresses, so from some networks:
+multichaind wallet@192.168.137.1:4799
+
+Listening for API requests on port 4798 (local only - see rpcallowip setting)
+
+Node ready.
+/////////////////////////////////////////////
+on second terminal
+Microsoft Windows [Version 10.0.17134.407]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Sandhya>d:
+
+D:\>cd multichain-windows-1.0.6
+
+D:\multichain-windows-1.0.6>multichain-cli wallet
+
+MultiChain 1.0.6 RPC client
+
+
+Usage:
+  multichain-cli <blockchain-name> [options] <command> [params]  Send command to MultiChain Core
+  multichain-cli <blockchain-name> [options] help                List commands
+  multichain-cli <blockchain-name> [options] help <command>      Get help for a command
+
+Options:
+  -?                       This help message
+  -conf=<file>             Specify configuration file (default: multichain.conf)
+  -datadir=<dir>           Specify data directory
+  -cold                    Connect to multichaind-cold: use multichaind-cold default directory if -datadir is not set
+  -requestout=<requestout> Send request to stderr, stdout or null (not print it at all), default stderr
+  -saveclilog=<n>          If <n>=0 multichain-cli history is not saved, default 1
+  -rpcconnect=<ip>         Send commands to node running on <ip> (default: 127.0.0.1)
+  -rpcport=<port>          Connect to JSON-RPC on <port>
+  -rpcwait                 Wait for RPC server to start
+  -rpcuser=<user>          Username for JSON-RPC connections
+  -rpcpassword=<pw>        Password for JSON-RPC connections
+
+SSL options:
+  -rpcssl                  Use OpenSSL (https) for JSON-RPC connections
+
+D:\multichain-windows-1.0.6>multichain-cli wallet create stream DOIT false
+{"method":"create","params":["stream","DOIT",false],"id":"62601397-1542956897","chain_name":"wallet"}
+
+d779e6c1090e88d1c93de4dc681fe51914c960d8e00fc92fc59beec2748c3bf6
+
+D:\multichain-windows-1.0.6>multichain-cli wallet subscribe DOIT
+{"method":"subscribe","params":["DOIT"],"id":"89933469-1542957021","chain_name":"wallet"}
+
+
+D:\multichain-windows-1.0.6>
+

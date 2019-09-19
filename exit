@@ -1,0 +1,26 @@
+[33mcommit e962b1a24137bb86060e70127a77536e0b048e51[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 7f7ba85 21e45bd
+Author: Sheshnath Agrahari <sheshnath.a@gmail.com>
+Date:   Wed Nov 21 22:39:27 2018 +0530
+
+    Merge branch 'master' of https://github.com/rapidqube/bhamashah-wallet_backend
+
+[33mcommit 21e45bd413cb5f82266882428633579bcde2d48f[m
+Merge: fd79823 565e22f
+Author: Hariramani <deepakhariramani@kpmg.com>
+Date:   Thu Nov 22 13:35:35 2018 +0530
+
+    Merge branch 'master' of https://github.com/rapidqube/bhamashah-wallet_backend
+
+[33mcommit fd798239db7a7200cc389d94998cac7c89ddf680[m
+Author: Hariramani <deepakhariramani@kpmg.com>
+Date:   Thu Nov 22 13:35:12 2018 +0530
+
+    swagger update
+
+[33mcommit 565e22fd9e4b93c3f8fd7eb577ed34a6406958c1[m
+Merge: 2857d51 4a8d179
+Author: sathiyanb <sathiyan.baskaran@rapidqube.com>
+Date:   Thu Nov 22 12:08:39 2018 +0530
+
+    Merge branch 'master' of https://github.com/rapidqube/bhamashah-wallet_backend

@@ -1,0 +1,8 @@
+{
+    "multichainConfig": {
+        "port" : "6274",
+        "host" : "127.0.0.1",
+        "user" : "multichainrpc",
+        "pass" : "7EE73arLHy5e1oQhziadForAcs61nDbxp6x5kiR8MdPF"
+      }
+}
