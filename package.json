@@ -46,7 +46,7 @@
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
     "crypto-js": "^3.1.9-1",
-    "date-and-time": "^0.6.2",
+    "date-and-time": "^0.14.2",
     "date-format": "^1.2.0",
     "dateformat": "^3.0.3",
     "debug": "~2.6.9",
