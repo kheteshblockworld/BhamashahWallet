@@ -54,7 +54,7 @@
     "device": "^0.3.9",
     "es6-promise": "^4.2.5",
     "exec-php": "0.0.4",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-generator": "^4.16.0",
     "folder-structure-generator": "^1.0.5",
     "generalised-multichain-node": "^1.0.4",
